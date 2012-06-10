@@ -2,6 +2,6 @@
 
 class sprite
 {
-	
+	bool passable;
 
 };

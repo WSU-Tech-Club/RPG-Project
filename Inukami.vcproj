@@ -164,7 +164,15 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
+				RelativePath=".\g_engine.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\main.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\player.cpp"
 				>
 			</File>
 		</Filter>
@@ -173,6 +181,18 @@
 			Filter="h;hpp;hxx;hm;inl;inc;xsd"
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
+			<File
+				RelativePath=".\actor.h"
+				>
+			</File>
+			<File
+				RelativePath=".\consumable.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Equipment.h"
+				>
+			</File>
 			<File
 				RelativePath=".\g_engine.h"
 				>

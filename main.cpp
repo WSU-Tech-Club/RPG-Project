@@ -1,4 +1,4 @@
-#include "SDL.h"
+#include "g_engine.h"
 
 int main(int argc, char* argv[])
 {
