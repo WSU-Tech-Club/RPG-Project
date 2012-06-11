@@ -10,11 +10,13 @@ using std::list;
 class GameMap
 {
 private:
-	list<sprite> sprites;
+	list<sprite*> sprites;
 	vector<SDL_Surface*> images;
 	int backgroundTile;
 
 	//context?
+	string mapInfo;
+	int mapID;
 
 public:
 	GameMap();
@@ -24,4 +26,6 @@ public:
 	void loadMap(int num);
 
 	void display(SDL_Surface *screen);
+
+	void blitSprite(sprite *s);
 };
