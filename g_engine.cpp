@@ -63,4 +63,6 @@ void g_engine::display()
 	map->display(screen);
 	self->display(screen);
 
+	SDL_flip(screen);
+
 }
