@@ -9,4 +9,5 @@ class Item
 	int Id;
 	int type;
 	int value; 
+	//all items will need a field to denote which realm's they can be used in 
 };
