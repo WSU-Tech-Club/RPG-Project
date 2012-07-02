@@ -12,7 +12,6 @@ using std::string;
 using std::ifstream;
 using std::ofstream;
 using std::ios;
-using namespace std;
 
 #include "Personality.h"
 #include "Opinon.h"
