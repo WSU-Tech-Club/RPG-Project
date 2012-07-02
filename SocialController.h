@@ -1,7 +1,7 @@
 #pragma once
 //this will be the main class for the social and story classes of the game
 
-#include"action.h"
+#include "action.h"
 
 
 class SocialController
@@ -10,6 +10,8 @@ public:
 	SocialController();
 	~SocialController();
 	Action interact(string npcName, int day);// handles npc interactions
+	
+	//maybe this function should take more arguments?
 	void HandleNpcInteractions(Action nAction);
 
 
