@@ -8,15 +8,16 @@ class Topic
 public:
 	Topic();
 	~Topic();
-	void setTopic(string nSpeak, string nResponses[MAXRESPONSES], bool nIsResponce[MAXRESPONSES]);
-	string getResponce(int choice);	//returns raw responce to the choice
+	void setTopic(string nSpeak, string nResponses[MAXRESPONSES], bool nIsResponse[MAXRESPONSES]);
+	string getResponse(int choice);	//returns raw responce to the choice
 	string speak();//returns speach
 
 
 private:
-	string speach;//contains the npc side of the conversation
+	string speech;//contains the npc side of the conversation -
+	//J: an entire conversation in one string?
 	string RESPONSES[MAXRESPONSES];// contains raw responce string
-	bool isResponce[MAXRESPONSES];//set false be default
+	bool isResponse[MAXRESPONSES];//set false be default
 };
 
 class Conversation
